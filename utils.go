@@ -9,7 +9,7 @@ func InSlice(a []string, x string) bool {
 	return false
 }
 
-func ContainInt(a []int, x int) bool {
+func IntCompare(a []int, x int) bool {
 	for _, v := range a {
 		if v == x {
 			return true
